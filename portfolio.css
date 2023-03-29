@@ -1,0 +1,189 @@
+
+
+body{
+background-image:url("https://img.freepik.com/premium-photo/3d-rendering-white-geometric-sci-fi-product-stand_167650-1111.jpg");
+background-repeat: no-repeat ;
+background-size: cover ;
+background-position:center;
+margin: 0;
+padding: 0;
+
+
+}
+.container{
+  padding: 10px ;
+}
+nav{
+
+display:flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+.logo{
+  width: 500px;
+}
+.container  ul{
+    
+    display:flex;
+    gap: 72px;
+    position: absolute;
+    top:20%;
+  }
+.container ul li {
+  list-style: none;
+}
+.container ul li a {
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding-top: 10px;
+  transition: 0.5s ease;
+  
+}
+ul:hover li a{
+  color:#1a1ef8
+
+}
+ul:hover li a :not(:hover){
+  color: wheat;
+  opacity: 0.3;
+  filter: blur(1px);
+}
+.header-text{
+margin-top: -10%;
+font-size: 30px;
+
+}
+.header-text h1{
+font-size:60px;
+margin-top: 10px;
+font-family: cochin;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+.about{
+  padding: 88px 0;
+  color: black;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-col-1 img {
+  width: 200px;
+  
+  height: auto;
+  border-radius: 10px;
+  padding-left: 50px;
+}
+.about-col-2 {
+
+  flex-basis: 60%;
+}
+*{
+  font-family: 'Lexend Deca', sans-serif;
+}
+.about-col-2{
+  font-size: 25px;
+      
+  
+}
+.projects{
+  text-align:right;
+  position:relative;
+  top:150px;
+  font-size: medium;
+  padding-right: 50px;
+  border-color: rgb(99, 99, 99);
+  border-width: 20px;
+  z-index: 1;
+}
+.projects img{
+width: 250px;
+height: auto;
+position:absolute;
+right: 0%;
+bottom: 101%;
+z-index: 1;
+}
+.projects button{
+
+  border-color: rgb(0, 0, 0);
+  border-width: 10px;
+  font-size: large;
+
+}
+.card img{
+
+  width: 270px;
+  height:400px;
+  box-shadow: 10px 5px 20px rgb(0, 0, 0) ;
+  position: absolute;
+  right: 0%;
+  top: 72%;
+  border-radius: 25px;
+}
+.projects h2{
+  color: rgb(0, 0, 0);
+  padding-right: 30px;
+}
+.projects2 h3{
+  color: rgb(0, 0, 0);
+  padding-right: 50px;
+  position: absolute;
+  right: 21%;
+  font-size: 30px;
+  z-index: 1;
+}
+.projects2 img{
+  width: 200px;
+  height: auto;
+  position:absolute;
+  right: 25%;
+  top: 450px;
+  z-index: 1;
+  }
+ .card2 img{
+
+    width: 270px;
+    height:400px;
+    box-shadow: 10px 5px 20px rgb(0, 0, 0) ;
+    position: absolute;
+    right: 21%;
+    top: 72%;
+    border-radius: 25px;
+  }
+  .project-card button{
+    border-color: rgb(0, 0, 0);
+    border-width: 10px;
+    font-size: large;
+    position: absolute;
+    right: 25%;
+    top: 114%;
+  }
+  .container ul li button{
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 0px;
+    transition: 0.5s ease;
+    border: 0px;
+    
+  }
+  ul:hover li button{
+    color:#1a1ef8
+  }
+  ul:hover li button :not(:hover){
+    color: rgb(0, 0, 0);
+    opacity: 0.3;
+    filter: blur(1px);
+  }

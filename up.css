@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.gatway-img img{
+padding-left: 20px;
+width: 250px;
+height:200px;
+}
+.column pre{
+
+font-size: large;
+
+
+}
+*{
+    font-family: 'Lexend Deca', sans-serif;
+}
+.column img {
+  width: 140px;
+}

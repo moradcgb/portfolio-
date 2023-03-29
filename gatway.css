@@ -1,0 +1,63 @@
+body{
+
+    
+    background-position: top center;
+
+  font-family: cochin;
+background-size:cover;
+
+background: size 50px;
+  background-color: gray;
+}
+ pre{
+text-align: left;
+font-size: large;
+font-family:courier;
+margin-left:10px;
+color:black
+}
+.container ul li {
+display: inline-block;
+margin: 10px 20px;
+  
+}
+nav ul li a ::after{
+  content: '';
+  width: 100%;
+  height:3px;
+  background: rgb(0, 0, 0);
+  position:absolute;
+  left:0;
+  bottom:-6px;
+  transition:0.5s; 
+}
+nav ul li a :hover::after{
+  width: 100%;
+}
+h1{
+  size: 50px;
+  font-family:courier new;
+  color:rgb(0, 255, 106);
+  text-align: center;
+  margin :0px;
+  
+}
+#my-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#my-text {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 2;
+  font-size: 24px;
+  color:rgb(64, 192, 64);
+  padding-left: 20px;
+  padding-top:50px;
+  font-family: courier ;
+}
+
